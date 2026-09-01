@@ -27,7 +27,7 @@ requirements:
     - hatch-js
   run:
     - python >=${{ python_min }}
-    - perspective >=5.2,<5.3
+    - perspective >=5.3,<5.4
     - spaday >=0.6.0
 
 tests:
