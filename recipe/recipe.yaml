@@ -1,5 +1,5 @@
 context:
-  version: "0.4.5"
+  version: "0.5.0"
   python_min: "3.11"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spaday-perspective/spaday_perspective-${{ version }}.tar.gz
-  sha256: 8775919a6893a65618a6d0ad4e054fa5f50b499e6b6838f772a912c9547e19d9
+  sha256: 39ae04791c8ad687ecb3458ca4cbd763d3c523070ae88700c160f3d8224f3166
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - hatch-js
   run:
     - python >=${{ python_min }}
-    - perspective >=5.2,<5.3
+    - perspective >=5.3,<5.4
     - spaday >=0.6.0
 
 tests:
