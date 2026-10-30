@@ -1,5 +1,5 @@
 context:
-  version: "0.8.1"
+  version: "0.8.3"
 
 package:
   name: spaday-perspective
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spaday-perspective/spaday_perspective-${{ version }}.tar.gz
-  sha256: d0d953f6de87e8805556b34374215e555cb4360ee92da4cb7452e96a3b975db6
+  sha256: 1f9eb4bb27b78065d87ad7279858f998e2343e342acab9f8131fc8eed4fc9303
 
 build:
   number: 0
